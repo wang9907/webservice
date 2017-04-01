@@ -6,10 +6,28 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
-		<attributes>
-			<attribute name="owner.project.facets" value="jst.web"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/FastInfoset.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/gmbal-api-only.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/ha-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/javax.annotation-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/javax.xml.soap-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxb-jxc.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxws-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxws-rt.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jaxws-tools.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/jsr181-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/management-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/mimepull.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/policy.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/resolver.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/saaj-impl.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/stax2-api.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/stax-ex.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/streambuffer.jar"/>
+	<classpathentry kind="lib" path="E:/wang/java/java平台/javaEE/jaxws/jaxws-ri/lib/woodstox-core-asl.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

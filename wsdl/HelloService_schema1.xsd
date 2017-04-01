@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://ws.wang.com/" xmlns:tns="http://ws.wang.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="say" type="tns:say"/>
+
+  <xs:element name="sayResponse" type="tns:sayResponse"/>
+
+  <xs:complexType name="say">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="sayResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

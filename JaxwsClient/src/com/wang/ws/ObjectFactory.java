@@ -24,8 +24,8 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _Say_QNAME = new QName("http://ws.wang.com/", "say");
-    private final static QName _SayResponse_QNAME = new QName("http://ws.wang.com/", "sayResponse");
+    private final static QName _GetPerson_QNAME = new QName("http://ws.wang.com/", "getPerson");
+    private final static QName _GetPersonResponse_QNAME = new QName("http://ws.wang.com/", "getPersonResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.wang.ws
@@ -35,37 +35,45 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SayResponse }
+     * Create an instance of {@link GetPersonResponse }
      * 
      */
-    public SayResponse createSayResponse() {
-        return new SayResponse();
+    public GetPersonResponse createGetPersonResponse() {
+        return new GetPersonResponse();
     }
 
     /**
-     * Create an instance of {@link Say }
+     * Create an instance of {@link GetPerson }
      * 
      */
-    public Say createSay() {
-        return new Say();
+    public GetPerson createGetPerson() {
+        return new GetPerson();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Say }{@code >}}
+     * Create an instance of {@link Person }
      * 
      */
-    @XmlElementDecl(namespace = "http://ws.wang.com/", name = "say")
-    public JAXBElement<Say> createSay(Say value) {
-        return new JAXBElement<Say>(_Say_QNAME, Say.class, null, value);
+    public Person createPerson() {
+        return new Person();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SayResponse }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetPerson }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://ws.wang.com/", name = "sayResponse")
-    public JAXBElement<SayResponse> createSayResponse(SayResponse value) {
-        return new JAXBElement<SayResponse>(_SayResponse_QNAME, SayResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://ws.wang.com/", name = "getPerson")
+    public JAXBElement<GetPerson> createGetPerson(GetPerson value) {
+        return new JAXBElement<GetPerson>(_GetPerson_QNAME, GetPerson.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetPersonResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.wang.com/", name = "getPersonResponse")
+    public JAXBElement<GetPersonResponse> createGetPersonResponse(GetPersonResponse value) {
+        return new JAXBElement<GetPersonResponse>(_GetPersonResponse_QNAME, GetPersonResponse.class, null, value);
     }
 
 }

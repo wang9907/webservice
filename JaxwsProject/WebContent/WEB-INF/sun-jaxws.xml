@@ -2,5 +2,12 @@
 <endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime'
     version='2.0'>
     <endpoint name='Hello' implementation='com.wang.ws.Hello'
-        url-pattern='/HelloService' />
+        url-pattern='/ws/HelloService' />
+      
+    <endpoint name='CollectionWS' implementation='com.wang.ws.CollectionWS'
+		url-pattern='/ws/CollectionWSService' />   
+		
+	<endpoint name='JavaComplexType' implementation='com.wang.ws.JavaComplexType'
+		url-pattern='/w/JavaComplexTypeService' />
+ 
 </endpoints>

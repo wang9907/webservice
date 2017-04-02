@@ -1,0 +1,17 @@
+生成wsdl文件命令
+wsgen -cp C:\Users\Administrator\git\webservice\JaxwsProject\build\classes com.wang.ws.CollectionWS  -wsdl -s wssrc -d build -r wsdl
+
+
+
+生成客户端调用代码命令
+wsimport -keep –b binding.xml  -d bin -s src wsdl\CollectionWSService.wsdl
+
+binding.xml文件
+<?xml version="1.0" encoding="UTF-8"?>
+<bindings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" wsdlLocation="wsdl/CollectionWSService.wsdl"
+    xmlns="http://java.sun.com/xml/ns/jaxws">
+    <bindings node="wsdl:definitions">
+        <enableAsyncMapping>true</enableAsyncMapping>
+    </bindings>
+</bindings>    

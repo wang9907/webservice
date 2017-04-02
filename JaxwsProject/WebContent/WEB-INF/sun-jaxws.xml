@@ -9,5 +9,11 @@
 		
 	<endpoint name='JavaComplexType' implementation='com.wang.ws.JavaComplexType'
 		url-pattern='/w/JavaComplexTypeService' />
+		
+	<endpoint name='MTOMSimple' implementation='com.wang.ws.MTOMSimple'
+		url-pattern='/ws/MTOMSimpleService' />
+		
+	<endpoint name='MTOMCustomer' implementation='com.wang.ws.MTOMCustomerImpl'
+           url-pattern='/ws/MTOMCustomerService' />
  
 </endpoints>

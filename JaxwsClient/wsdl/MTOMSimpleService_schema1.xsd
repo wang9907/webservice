@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://ws.wang.com/" xmlns:tns="http://ws.wang.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="echoData" type="tns:echoData"/>
+
+  <xs:element name="echoDataResponse" type="tns:echoDataResponse"/>
+
+  <xs:complexType name="echoData">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="echoDataResponse">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
